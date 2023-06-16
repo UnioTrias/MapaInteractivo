@@ -1,0 +1,51 @@
+body{
+    background-image: radial-gradient(circle at -4.47% 11.86%, #acfbff 0, #3288ff 50%, #00245a 100%);
+}
+
+p, ol, ul, dt, dd, tr{
+    font-size: 18px;
+}
+tr{
+    text-align: center;
+}
+table{
+    border: 1px;
+}
+
+.mapa {
+    display:block;
+    margin:auto;
+}
+
+.contenedor{
+    border-radius: 30px;
+    background-image: repeating-linear-gradient(45deg, #dbc3b8df 0, #dbc3b8e6 2px, transparent 0, transparent 50%);
+    background-size: 36px 36px;
+    background-position: 0 0, 18px 18px;
+    background-color: #fae5d3ae   ;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 30%;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    
+}
+.contenedorFoto{
+    border-radius: 30px;
+    background-image: repeating-linear-gradient(45deg, #dbc3b8df 0, #dbc3b8e6 2px, transparent 0, transparent 50%);
+    background-size: 36px 36px;
+    background-position: 0 0, 18px 18px;
+    background-color: #fae5d3ae   ;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 30%;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    
+}
+
+.contenedorFoto img{
+    border-radius: 30px;
+}
