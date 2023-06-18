@@ -1,5 +1,5 @@
 function out(){
-    document.getElementById('ciudad').src='img/ciudad950.png';
+    document.getElementById('ciudad').src='img/Ciudad950.png';
 }
 
 function donGato(){
