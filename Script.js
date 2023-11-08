@@ -184,6 +184,11 @@ function salir(){
     document.getElementById('contenedor').innerHTML='';
 }
 
- 
+function inicio(){
+    var container = document.getElementById('container');
+    var audio = document.getElementById('miAudio');
+    audio.play();
+    container.remove();
+} 
 
 

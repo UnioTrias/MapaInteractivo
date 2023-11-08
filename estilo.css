@@ -1,5 +1,9 @@
 body{
-    background-image: radial-gradient(circle at -4.47% 11.86%, #acfbff 0, #3288ff 50%, #00245a 100%);
+    background-image: url(img/Ciudad950-oscuro.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-image: radial-gradient(circle at -4.47% 11.86%, #acfbff 0, #3288ff 50%, #00245a 100%);
+    position: relative; */
 }
 
 p, ol, ul, dt, dd, tr{
@@ -49,3 +53,47 @@ table{
 .contenedorFoto img{
     border-radius: 30px;
 }
+
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(img/Ciudad950-oscuro.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 98%;
+    max-height: 100%;
+}
+  .intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 600px;
+    max-height: 200px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #005dc0;
+  }
