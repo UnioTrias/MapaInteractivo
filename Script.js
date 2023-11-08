@@ -66,7 +66,7 @@ function molinoAgua(){
 }
 function molinoAgua4(){
     var texto='';
-    texto+='<p>Cuenta la leyenda que esta ciudad antes no estaba en las alturas y por aquí pasaba un río. <br><br> Ahora se mueve cuando una nuve lo atraviesa bajo el puente.</p>';
+    texto+='<p>Cuenta la leyenda que esta ciudad antes no estaba en las alturas y por aquí pasaba un río. <br><br> Ahora se mueve cuando una nube lo atraviesa bajo el puente.</p>';
     texto+='<p align="right">&dArr;</p>';
     document.getElementById('contenedor').innerHTML=texto;
 }
